@@ -5,7 +5,7 @@ namespace Library
 {
     public class Singleton <T> where T : new()
     {
-        private static T instance {get; set; }
+        private static T instance; 
         public static T Instance
         {
             get
